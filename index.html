@@ -26,9 +26,7 @@
     margin: 0 auto;
     padding: 4rem 1.5rem 6rem;
   }
-  header {
-    margin-bottom: 3rem;
-  }
+  header { margin-bottom: 3rem; }
   .brand {
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1.1rem;
@@ -43,31 +41,22 @@
     margin: 0 0 0.5rem;
     color: var(--ink);
   }
-  .updated {
-    font-size: 0.85rem;
-    color: var(--ink-soft);
-    margin: 0;
-  }
+  .updated { font-size: 0.85rem; color: var(--ink-soft); margin: 0; }
   section {
     margin: 2.25rem 0;
     padding-top: 2.25rem;
     border-top: 1px solid var(--rule);
   }
-  section:first-of-type {
-    border-top: none;
-    padding-top: 0;
-  }
+  section:first-of-type { border-top: none; padding-top: 0; }
   h2 {
     font-size: 1.05rem;
     font-weight: 600;
     color: var(--sage);
     margin: 0 0 0.75rem;
   }
-  p {
-    margin: 0 0 1rem;
-    font-size: 0.97rem;
-    color: var(--ink);
-  }
+  p { margin: 0 0 1rem; font-size: 0.97rem; color: var(--ink); }
+  ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+  li { font-size: 0.97rem; margin-bottom: 0.5rem; }
   .note {
     background: #fbeef0;
     border-radius: 10px;
@@ -75,9 +64,7 @@
     font-size: 0.9rem;
     color: var(--ink-soft);
   }
-  .note strong {
-    color: var(--accent);
-  }
+  .note strong { color: var(--accent); }
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
   footer {
@@ -98,64 +85,76 @@
     </header>
 
     <section>
-      <p>Bienvenue sur Yazia. Cette politique de confidentialité explique quelles données nous collectons, pourquoi, et comment vous pouvez en garder le contrôle.</p>
+      <p>Yazia (« nous », « notre ») respecte votre vie privée. Cette politique explique quelles données nous collectons, comment nous les utilisons, et comment vous pouvez en garder le contrôle lorsque vous utilisez notre application.</p>
     </section>
 
     <section>
-      <h2>1. Qui est responsable de vos données ?</h2>
-      <p>Yazia est développée et exploitée par <strong>Yazia</strong>, ci-après « nous ».</p>
-      <p>Pour toute question concernant vos données, vous pouvez nous contacter à : <a href="mailto:soulbloom.appli@gmail.com">soulbloom.appli@gmail.com</a></p>
-    </section>
-
-    <section>
-      <h2>2. Quelles données collectons-nous ?</h2>
-      <p><strong>Données de compte.</strong> Lors de votre inscription, nous collectons votre adresse email et un mot de passe, stocké de manière chiffrée.</p>
-      <p><strong>Données de journal.</strong> Lorsque vous écrivez une entrée dans votre journal personnel, ce contenu est enregistré de façon sécurisée et associé à votre compte. Ces entrées sont privées : nous n'y accédons pas, ne les lisons pas, et ne les partageons avec personne. Elles restent accessibles dans votre historique jusqu'à ce que vous décidiez de les supprimer vous-même.</p>
-      <p><strong>Données d'utilisation.</strong> Nous pouvons collecter des informations techniques basiques sur l'usage de l'app afin d'améliorer l'expérience. Ces données ne permettent pas de vous identifier personnellement.</p>
+      <h2>1. Informations que nous collectons</h2>
+      <ul>
+        <li><strong>Informations de compte :</strong> votre adresse email, et un mot de passe stocké de manière chiffrée</li>
+        <li><strong>Données de journal :</strong> le contenu que vous écrivez dans votre espace de journal personnel, privé et associé à votre compte</li>
+        <li><strong>Données d'utilisation :</strong> informations techniques basiques (interactions dans l'app, type d'appareil) pour améliorer l'expérience</li>
+      </ul>
       <div class="note">
-        <strong>À venir.</strong> Lorsque vous activerez les rappels de dou'a basés sur la localisation, nous collecterons votre position géographique uniquement pour déclencher ces rappels au moment approprié. Vous pourrez désactiver cette fonctionnalité à tout moment dans les réglages de l'app.
+        <strong>À venir.</strong> Lorsque vous activerez les rappels basés sur la localisation, nous collecterons votre position géographique uniquement pour déclencher ces rappels au moment approprié. Vous pourrez désactiver cette fonctionnalité à tout moment.
       </div>
     </section>
 
     <section>
-      <h2>3. Pourquoi collectons-nous ces données ?</h2>
-      <p>Email et mot de passe : pour créer et sécuriser votre compte. Journal : pour vous offrir un espace personnel de réflexion accessible dans le temps. Données d'usage : pour comprendre comment améliorer Yazia.</p>
-      <p>Nous ne vendons jamais vos données à des tiers, et nous ne les utilisons pas à des fins publicitaires.</p>
+      <h2>2. Comment nous utilisons vos informations</h2>
+      <p>Nous utilisons vos informations pour :</p>
+      <ul>
+        <li>Fournir et améliorer nos services</li>
+        <li>Vous offrir un espace personnel de réflexion accessible dans le temps</li>
+        <li>Communiquer des informations importantes liées à votre compte</li>
+        <li>Assurer la sécurité de l'application</li>
+      </ul>
     </section>
 
     <section>
-      <h2>4. Où sont stockées vos données ?</h2>
-      <p>Vos données sont hébergées via Supabase, un service d'hébergement sécurisé qui chiffre les données en transit et au repos. Supabase agit comme sous-traitant technique et n'a pas le droit d'utiliser vos données pour ses propres finalités.</p>
+      <h2>3. Partage des informations</h2>
+      <p>Nous ne vendons jamais vos données personnelles. Nous pouvons partager des informations uniquement avec des prestataires techniques de confiance qui nous aident à faire fonctionner l'application (par exemple l'hébergement), et uniquement dans ce but. Nous pouvons divulguer des informations si la loi l'exige.</p>
     </section>
 
     <section>
-      <h2>5. Avec qui partageons-nous vos données ?</h2>
-      <p>Nous ne partageons vos données personnelles avec aucun tiers à des fins commerciales ou publicitaires. Vos données peuvent uniquement être transmises à notre prestataire d'hébergement (Supabase) dans le seul but de faire fonctionner l'app.</p>
+      <h2>4. Sécurité des données</h2>
+      <p>Vos données sont hébergées via Supabase, qui chiffre les données en transit et au repos. Nous prenons des mesures raisonnables pour protéger vos informations, mais aucun système n'est totalement infaillible — nous vous encourageons à utiliser un mot de passe robuste et unique.</p>
     </section>
 
     <section>
-      <h2>6. Vos droits</h2>
-      <p>Vous pouvez à tout moment accéder à vos données, corriger une information inexacte, supprimer une entrée de journal individuelle, ou supprimer entièrement votre compte — ce qui efface définitivement l'ensemble de vos données.</p>
-      <p>Pour exercer ces droits, contactez-nous à <a href="mailto:soulbloom.appli@gmail.com">soulbloom.appli@gmail.com</a>. Nous traiterons votre demande dans un délai raisonnable.</p>
+      <h2>5. Vos choix</h2>
+      <p>Vous pouvez à tout moment :</p>
+      <ul>
+        <li>Accéder à vos données personnelles</li>
+        <li>Corriger une information inexacte</li>
+        <li>Supprimer une entrée de journal individuelle</li>
+        <li>Supprimer entièrement votre compte, ce qui efface définitivement vos données associées</li>
+      </ul>
+      <p>Pour exercer ces droits, contactez-nous à <a href="mailto:soulbloom.appli@gmail.com">soulbloom.appli@gmail.com</a>.</p>
     </section>
 
     <section>
-      <h2>7. Sécurité</h2>
-      <p>Nous mettons en place des mesures techniques raisonnables pour protéger vos données contre tout accès non autorisé, perte ou divulgation. Aucun système n'est totalement infaillible : nous vous encourageons à utiliser un mot de passe robuste et unique.</p>
-    </section>
-
-    <section>
-      <h2>8. Âge minimum</h2>
+      <h2>6. Confidentialité des mineurs</h2>
       <p>Yazia n'est pas destinée aux enfants de moins de 13 ans. Si vous pensez qu'un enfant nous a transmis des données personnelles sans le consentement d'un parent, contactez-nous afin que nous puissions les supprimer.</p>
     </section>
 
     <section>
-      <h2>9. Modifications de cette politique</h2>
-      <p>Nous pouvons mettre à jour cette politique, notamment lors de l'ajout de nouvelles fonctionnalités. Toute modification importante vous sera communiquée via l'app ou par email.</p>
+      <h2>7. Utilisateurs internationaux</h2>
+      <p>En utilisant Yazia, vous acceptez que vos informations puissent être traitées et stockées via notre prestataire d'hébergement (Supabase), quel que soit votre pays de résidence.</p>
+    </section>
+
+    <section>
+      <h2>8. Modifications de cette politique</h2>
+      <p>Nous pouvons mettre à jour cette politique périodiquement, notamment lors de l'ajout de nouvelles fonctionnalités (par exemple les rappels géolocalisés). Toute modification importante vous sera communiquée via l'application ou par email. La poursuite de l'utilisation de l'application après une mise à jour vaut acceptation de la politique révisée.</p>
+    </section>
+
+    <section>
+      <h2>9. Nous contacter</h2>
+      <p>Pour toute question relative à cette politique ou à vos données personnelles, contactez-nous à <a href="mailto:soulbloom.appli@gmail.com">soulbloom.appli@gmail.com</a>.</p>
     </section>
 
     <footer>
-      Contact : <a href="mailto:soulbloom.appli@gmail.com">soulbloom.appli@gmail.com</a>
+      Voir aussi nos <a href="https://yazia.app/terms.html">conditions d'utilisation</a>.
     </footer>
   </div>
 </body>
