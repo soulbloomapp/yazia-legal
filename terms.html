@@ -1,127 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Conditions d'utilisation — Yazia</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yazia — Conditions d'utilisation</title>
 <style>
-  :root {
+  :root{
     --cream: #fdf9f6;
-    --accent: #ee1f4e;
+    --cream-deep: #f6ece6;
+    --rose: #ee1f4e;
+    --rose-soft: #fbe7ec;
     --sage: #6e8d86;
-    --ink: #2b2622;
-    --ink-soft: #6b6258;
-    --rule: #e8ddd3;
+    --ink: #2b2420;
+    --ink-soft: #6b625c;
+    --hairline: rgba(43,36,32,0.10);
   }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--cream);
-    color: var(--ink);
+  *{ box-sizing: border-box; }
+  html,body{ margin:0; padding:0; background: var(--cream); color: var(--ink);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.65;
-  }
-  .wrap {
-    max-width: 640px;
-    margin: 0 auto;
-    padding: 4rem 1.5rem 6rem;
-  }
-  header {
-    margin-bottom: 3rem;
-  }
-  .brand {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.1rem;
-    letter-spacing: 0.04em;
-    color: var(--accent);
-    margin: 0 0 1.5rem;
-  }
-  h1 {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.9rem;
-    font-weight: 400;
-    margin: 0 0 0.5rem;
-    color: var(--ink);
-  }
-  .updated {
-    font-size: 0.85rem;
-    color: var(--ink-soft);
-    margin: 0;
-  }
-  section {
-    margin: 2.25rem 0;
-    padding-top: 2.25rem;
-    border-top: 1px solid var(--rule);
-  }
-  section:first-of-type {
-    border-top: none;
-    padding-top: 0;
-  }
-  h2 {
-    font-size: 1.05rem;
-    font-weight: 600;
-    color: var(--sage);
-    margin: 0 0 0.75rem;
-  }
-  p {
-    margin: 0 0 1rem;
-    font-size: 0.97rem;
-    color: var(--ink);
-  }
-  ul {
-    margin: 0 0 1rem;
-    padding-left: 1.25rem;
-  }
-  li {
-    font-size: 0.97rem;
-    margin-bottom: 0.5rem;
-  }
-  .note {
-    background: #fbeef0;
-    border-radius: 10px;
-    padding: 1rem 1.1rem;
-    font-size: 0.9rem;
-    color: var(--ink-soft);
-  }
-  .note strong {
-    color: var(--accent);
-  }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  footer {
-    margin-top: 3rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--rule);
-    font-size: 0.85rem;
-    color: var(--ink-soft);
-  }
+    -webkit-font-smoothing: antialiased; }
+  h1,h2{ font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif; font-weight: 500; color: var(--ink); letter-spacing: 0.1px; }
+  a{ color: var(--rose); text-decoration: none; }
+  .wrap{ max-width: 640px; margin: 0 auto; padding: 40px 22px 64px; }
+  .doc-title{ font-size: 30px; line-height: 1.15; margin: 0 0 4px; }
+  .updated{ font-size: 12.5px; color: var(--ink-soft); font-style: italic; margin: 0 0 18px; }
+  .lede{ font-size: 15px; line-height: 1.6; margin: 0 0 28px; }
+  .section{ padding: 20px 0 6px; }
+  .section + .section{ border-top: 1px solid var(--hairline); }
+  .num{ font-family: Georgia, serif; font-size: 13px; color: var(--rose); letter-spacing: 0.04em; }
+  h2{ font-size: 19px; margin: 4px 0 12px; line-height: 1.3; }
+  p{ font-size: 15px; line-height: 1.65; margin: 0 0 12px; }
+  ul{ margin: 0 0 14px; padding-left: 20px; }
+  li{ font-size: 15px; line-height: 1.6; margin-bottom: 8px; }
+  .callout{ background: var(--rose-soft); border-left: 3px solid var(--rose); border-radius: 8px; padding: 14px 16px; margin: 4px 0 16px; }
+  .callout p{ margin: 0; }
+  .callout .label{ display:block; font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--rose); margin-bottom: 4px; }
+  .contact-box{ margin-top: 10px; padding: 16px 18px; background: var(--cream-deep); border-radius: 12px; font-size: 14.5px; }
+  .contact-box a{ font-weight: 600; }
+  .cross-link{ margin-top: 22px; font-size: 13.5px; color: var(--ink-soft); }
 </style>
 </head>
 <body>
   <div class="wrap">
-    <header>
-      <p class="brand">Yazia</p>
-      <h1>Conditions d'utilisation</h1>
-      <p class="updated">Dernière mise à jour : 23/06/2026</p>
-    </header>
+    <h1 class="doc-title">Conditions d'utilisation</h1>
+    <p class="updated">Dernière mise à jour : 23/06/2026</p>
+    <p class="lede">Bienvenue sur Yazia (« Yazia », « nous », « notre »). En accédant à notre application ou en l'utilisant, vous acceptez ces conditions d'utilisation (les « Conditions »). Si vous ne les acceptez pas, merci de ne pas utiliser l'application.</p>
 
-    <section>
-      <p>Bienvenue sur Yazia (« Yazia », « nous », « notre »). En accédant à notre application ou en l'utilisant, vous acceptez ces conditions d'utilisation (les « Conditions »). Si vous ne les acceptez pas, merci de ne pas utiliser l'application.</p>
-    </section>
-
-    <section>
-      <h2>1. Éligibilité</h2>
+    <div class="section">
+      <span class="num">01</span>
+      <h2>Éligibilité</h2>
       <p>Vous devez avoir au moins <strong>13 ans</strong> pour créer un compte ou utiliser Yazia. En utilisant l'application, vous déclarez remplir cette condition. Yazia ne permet pas sciemment l'usage de l'app par des personnes plus jeunes.</p>
-    </section>
+    </div>
 
-    <section>
-      <h2>2. Services proposés</h2>
+    <div class="section">
+      <span class="num">02</span>
+      <h2>Services proposés</h2>
       <p>Yazia propose des outils d'accompagnement spirituel et de bien-être : rappels de bonnes actions, contenus d'inspiration, calendrier, et un espace de journal personnel. Nous pouvons mettre à jour, modifier ou retirer certaines fonctionnalités à tout moment, sans préavis.</p>
       <p>Les services numériques sont fournis dès la création de votre compte ou, le cas échéant, dès l'activation d'un abonnement.</p>
-    </section>
+    </div>
 
-    <section>
-      <h2>3. Responsabilités de l'utilisateur</h2>
+    <div class="section">
+      <span class="num">03</span>
+      <h2>Responsabilités de l'utilisateur</h2>
       <p>En utilisant Yazia, vous acceptez de :</p>
       <ul>
         <li>Fournir des informations exactes et à jour</li>
@@ -130,33 +70,38 @@
         <li>Ne pas tenter de nuire au fonctionnement ou à la sécurité de l'application</li>
       </ul>
       <p>Nous nous réservons le droit de restreindre l'accès à un compte qui ne respecterait pas ces règles.</p>
-    </section>
+    </div>
 
-    <section>
-      <h2>4. Nature des contenus spirituels</h2>
-      <div class="note">
-        <strong>Important.</strong> Les rappels de bonnes actions et les contenus d'inspiration proposés dans Yazia sont destinés à accompagner votre cheminement personnel. Ils ne constituent pas un avis religieux (fatwa) ni un substitut à l'enseignement d'un savant qualifié. Pour toute question religieuse précise, nous vous encourageons à consulter une autorité religieuse compétente.
+    <div class="section">
+      <span class="num">04</span>
+      <h2>Nature des contenus spirituels</h2>
+      <div class="callout">
+        <span class="label">Important</span>
+        <p>Les rappels de bonnes actions et les contenus d'inspiration proposés dans Yazia sont destinés à accompagner votre cheminement personnel. Ils ne constituent pas un avis religieux (fatwa) ni un substitut à l'enseignement d'un savant qualifié. Pour toute question religieuse précise, nous vous encourageons à consulter une autorité religieuse compétente.</p>
       </div>
-    </section>
+    </div>
 
-    <section>
-      <h2>5. Aucune garantie de résultat</h2>
+    <div class="section">
+      <span class="num">05</span>
+      <h2>Aucune garantie de résultat</h2>
       <p>Les services sont fournis « tels quels » et « selon disponibilité ». Yazia ne garantit pas :</p>
       <ul>
         <li>Un accès continu ou sans erreur</li>
         <li>Des résultats spécifiques sur votre cheminement personnel ou spirituel</li>
         <li>L'exactitude absolue de chaque contenu d'inspiration proposé</li>
       </ul>
-    </section>
+    </div>
 
-    <section>
-      <h2>6. Votre contenu (journal et écrits personnels)</h2>
-      <p>Tout ce que vous écrivez dans votre journal vous appartient entièrement. Yazia ne revendique aucun droit de propriété sur vos écrits, ne les lit pas, ne les analyse pas, et ne les partage avec personne.</p>
-      <p>Vous pouvez supprimer vos écrits individuellement, ou supprimer entièrement votre compte à tout moment, ce qui efface définitivement vos données associées.</p>
-    </section>
+    <div class="section">
+      <span class="num">06</span>
+      <h2>Votre contenu (journal et écrits personnels)</h2>
+      <p>Tout ce que vous écrivez dans votre journal vous appartient entièrement. Ce contenu reste stocké localement sur votre appareil : Yazia ne le reçoit jamais, ne le lit pas, ne l'analyse pas, et ne le partage avec personne.</p>
+      <p>Vous pouvez supprimer vos écrits individuellement depuis l'application. Ce contenu n'étant pas sauvegardé sur nos serveurs, sa suppression (volontaire ou liée à une désinstallation) est définitive et nous ne pouvons pas le restaurer.</p>
+    </div>
 
-    <section>
-      <h2>7. Usages interdits</h2>
+    <div class="section">
+      <span class="num">07</span>
+      <h2>Usages interdits</h2>
       <p>Vous ne pouvez pas :</p>
       <ul>
         <li>Usurper l'identité d'une autre personne ou fournir de fausses informations</li>
@@ -164,10 +109,11 @@
         <li>Utiliser l'application à des fins commerciales non autorisées</li>
         <li>Procéder à de l'ingénierie inverse ou copier le code de l'application</li>
       </ul>
-    </section>
+    </div>
 
-    <section>
-      <h2>8. Paiements et abonnements</h2>
+    <div class="section">
+      <span class="num">08</span>
+      <h2>Paiements et abonnements</h2>
       <p>Yazia est actuellement gratuite. Si des fonctionnalités premium ou des abonnements sont proposés à l'avenir :</p>
       <ul>
         <li>Le paiement sera traité via le système de facturation d'Apple ou de Google</li>
@@ -176,42 +122,59 @@
         <li>Vous pourrez gérer ou annuler un abonnement directement depuis les réglages de votre appareil</li>
       </ul>
       <p>Yazia ne garantit pas de résultats spécifiques liés à l'usage de fonctionnalités premium.</p>
-    </section>
+    </div>
 
-    <section>
-      <h2>9. Résiliation</h2>
+    <div class="section">
+      <span class="num">09</span>
+      <h2>Résiliation</h2>
       <p>Nous pouvons suspendre, restreindre ou résilier votre compte à tout moment, avec ou sans préavis, si vous violez ces Conditions ou utilisez l'application de manière abusive.</p>
       <p>Vous pouvez supprimer votre compte à tout moment. Yazia n'est pas responsable de la conservation ou de la sauvegarde de données supprimées.</p>
-    </section>
+    </div>
 
-    <section>
-      <h2>10. Limitation de responsabilité</h2>
+    <div class="section">
+      <span class="num">10</span>
+      <h2>Limitation de responsabilité</h2>
       <p>Dans la mesure permise par la loi applicable :</p>
       <ul>
         <li>Yazia n'est pas responsable des dommages indirects, accessoires ou consécutifs liés à l'utilisation de l'application</li>
         <li>Yazia ne garantit pas un fonctionnement ininterrompu de l'application</li>
         <li>Votre utilisation des services se fait à vos propres risques</li>
       </ul>
-    </section>
+    </div>
 
-    <section>
-      <h2>11. Propriété intellectuelle</h2>
+    <div class="section">
+      <span class="num">11</span>
+      <h2>Propriété intellectuelle</h2>
       <p>Yazia détient l'ensemble des éléments de marque, du design, des contenus rédigés, et du code de l'application. Vous n'êtes pas autorisé à copier, modifier, distribuer ou procéder à de l'ingénierie inverse de l'application sans autorisation écrite préalable.</p>
-    </section>
+    </div>
 
-    <section>
-      <h2>12. Modifications de ces conditions</h2>
+    <div class="section">
+      <span class="num">12</span>
+      <h2>Résolution des litiges et droit applicable</h2>
+      <p>Ces Conditions sont régies par le droit applicable dans votre pays de résidence, sauf disposition contraire prévue par une loi de protection des consommateurs qui vous serait plus favorable. En cas de désaccord, nous vous encourageons à nous contacter en premier lieu à <a href="mailto:soulbloom.appli@gmail.com">soulbloom.appli@gmail.com</a> afin de rechercher une solution amiable.</p>
+    </div>
+
+    <div class="section">
+      <span class="num">13</span>
+      <h2>Limitations du service</h2>
+      <p>Nous pouvons limiter ou suspendre temporairement l'accès à tout ou partie de l'application pour des raisons de maintenance, de mise à jour, de conformité légale ou de sécurité. Nous ne garantissons pas une disponibilité continue du service.</p>
+    </div>
+
+    <div class="section">
+      <span class="num">14</span>
+      <h2>Modifications de ces conditions</h2>
       <p>Nous pouvons mettre à jour ces Conditions périodiquement, notamment lors de l'ajout de nouvelles fonctionnalités. La poursuite de l'utilisation de l'application après une mise à jour vaut acceptation des nouvelles Conditions.</p>
-    </section>
+    </div>
 
-    <section>
-      <h2>13. Contact</h2>
-      <p>Pour toute question relative à ces Conditions, vous pouvez nous contacter à <a href="mailto:soulbloom.appli@gmail.com">soulbloom.appli@gmail.com</a>.</p>
-    </section>
-
-    <footer>
-      Voir aussi notre <a href="https://yazia.app">politique de confidentialité</a>.
-    </footer>
+    <div class="section">
+      <span class="num">15</span>
+      <h2>Contact</h2>
+      <p>Pour toute question relative à ces Conditions, vous pouvez nous contacter :</p>
+      <div class="contact-box">
+        <a href="mailto:soulbloom.appli@gmail.com">soulbloom.appli@gmail.com</a>
+      </div>
+      <p class="cross-link">Voir aussi notre <a href="/">politique de confidentialité</a>.</p>
+    </div>
   </div>
 </body>
 </html>

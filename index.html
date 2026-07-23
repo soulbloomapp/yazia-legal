@@ -1,107 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Politique de confidentialité — Yazia</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yazia — Politique de confidentialité</title>
 <style>
-  :root {
+  :root{
     --cream: #fdf9f6;
-    --accent: #ee1f4e;
+    --cream-deep: #f6ece6;
+    --rose: #ee1f4e;
+    --rose-soft: #fbe7ec;
     --sage: #6e8d86;
-    --ink: #2b2622;
-    --ink-soft: #6b6258;
-    --rule: #e8ddd3;
+    --ink: #2b2420;
+    --ink-soft: #6b625c;
+    --hairline: rgba(43,36,32,0.10);
   }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--cream);
-    color: var(--ink);
+  *{ box-sizing: border-box; }
+  html,body{ margin:0; padding:0; background: var(--cream); color: var(--ink);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.65;
-  }
-  .wrap {
-    max-width: 640px;
-    margin: 0 auto;
-    padding: 4rem 1.5rem 6rem;
-  }
-  header { margin-bottom: 3rem; }
-  .brand {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.1rem;
-    letter-spacing: 0.04em;
-    color: var(--accent);
-    margin: 0 0 1.5rem;
-  }
-  h1 {
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 1.9rem;
-    font-weight: 400;
-    margin: 0 0 0.5rem;
-    color: var(--ink);
-  }
-  .updated { font-size: 0.85rem; color: var(--ink-soft); margin: 0; }
-  section {
-    margin: 2.25rem 0;
-    padding-top: 2.25rem;
-    border-top: 1px solid var(--rule);
-  }
-  section:first-of-type { border-top: none; padding-top: 0; }
-  h2 {
-    font-size: 1.05rem;
-    font-weight: 600;
-    color: var(--sage);
-    margin: 0 0 0.75rem;
-  }
-  p { margin: 0 0 1rem; font-size: 0.97rem; color: var(--ink); }
-  ul { margin: 0 0 1rem; padding-left: 1.25rem; }
-  li { font-size: 0.97rem; margin-bottom: 0.5rem; }
-  .note {
-    background: #fbeef0;
-    border-radius: 10px;
-    padding: 1rem 1.1rem;
-    font-size: 0.9rem;
-    color: var(--ink-soft);
-  }
-  .note strong { color: var(--accent); }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  footer {
-    margin-top: 3rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--rule);
-    font-size: 0.85rem;
-    color: var(--ink-soft);
-  }
+    -webkit-font-smoothing: antialiased; }
+  h1,h2{ font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif; font-weight: 500; color: var(--ink); letter-spacing: 0.1px; }
+  a{ color: var(--rose); text-decoration: none; }
+  .wrap{ max-width: 640px; margin: 0 auto; padding: 40px 22px 64px; }
+  .doc-title{ font-size: 30px; line-height: 1.15; margin: 0 0 4px; }
+  .updated{ font-size: 12.5px; color: var(--ink-soft); font-style: italic; margin: 0 0 18px; }
+  .lede{ font-size: 15px; line-height: 1.6; margin: 0 0 28px; }
+  .section{ padding: 20px 0 6px; }
+  .section + .section{ border-top: 1px solid var(--hairline); }
+  .num{ font-family: Georgia, serif; font-size: 13px; color: var(--rose); letter-spacing: 0.04em; }
+  h2{ font-size: 19px; margin: 4px 0 12px; line-height: 1.3; }
+  p{ font-size: 15px; line-height: 1.65; margin: 0 0 12px; }
+  ul{ margin: 0 0 14px; padding-left: 20px; }
+  li{ font-size: 15px; line-height: 1.6; margin-bottom: 8px; }
+  .callout{ background: var(--rose-soft); border-left: 3px solid var(--rose); border-radius: 8px; padding: 14px 16px; margin: 4px 0 16px; }
+  .callout p{ margin: 0; }
+  .callout .label{ display:block; font-size: 11.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--rose); margin-bottom: 4px; }
+  .contact-box{ margin-top: 10px; padding: 16px 18px; background: var(--cream-deep); border-radius: 12px; font-size: 14.5px; }
+  .contact-box a{ font-weight: 600; }
+  .cross-link{ margin-top: 22px; font-size: 13.5px; color: var(--ink-soft); }
 </style>
 </head>
 <body>
   <div class="wrap">
-    <header>
-      <p class="brand">Yazia</p>
-      <h1>Politique de confidentialité</h1>
-      <p class="updated">Dernière mise à jour : 23/06/2026</p>
-    </header>
+    <h1 class="doc-title">Politique de confidentialité</h1>
+    <p class="updated">Dernière mise à jour : 23/06/2026</p>
+    <p class="lede">Yazia (« nous », « notre ») respecte votre vie privée. Cette politique explique quelles données nous collectons, comment nous les utilisons, et comment vous pouvez en garder le contrôle lorsque vous utilisez notre application.</p>
 
-    <section>
-      <p>Yazia (« nous », « notre ») respecte votre vie privée. Cette politique explique quelles données nous collectons, comment nous les utilisons, et comment vous pouvez en garder le contrôle lorsque vous utilisez notre application.</p>
-    </section>
-
-    <section>
-      <h2>1. Informations que nous collectons</h2>
+    <div class="section">
+      <span class="num">01</span>
+      <h2>Informations que nous collectons</h2>
       <ul>
         <li><strong>Informations de compte :</strong> votre adresse email, et un mot de passe stocké de manière chiffrée</li>
-        <li><strong>Données de journal :</strong> le contenu que vous écrivez dans votre espace de journal personnel, privé et associé à votre compte</li>
-        <li><strong>Données d'utilisation :</strong> informations techniques basiques (interactions dans l'app, type d'appareil) pour améliorer l'expérience</li>
+        <li><strong>Journal personnel libre :</strong> le contenu que vous écrivez est stocké uniquement sur votre appareil (stockage local). Il n'est jamais transmis à nos serveurs, ni lu, ni analysé par nous</li>
+        <li><strong>Données d'utilisation :</strong> informations techniques basiques (écrans consultés, interactions dans l'app, type d'appareil) pour améliorer l'expérience</li>
       </ul>
-      <div class="note">
-        <strong>À venir.</strong> Lorsque vous activerez les rappels basés sur la localisation, nous collecterons votre position géographique uniquement pour déclencher ces rappels au moment approprié. Vous pourrez désactiver cette fonctionnalité à tout moment.
+      <div class="callout">
+        <span class="label">À savoir</span>
+        <p>Le stockage local de votre journal signifie qu'il n'est pas sauvegardé automatiquement : si vous désinstallez l'application ou changez d'appareil sans exporter vos écrits au préalable, ce contenu sera perdu de façon irréversible.</p>
       </div>
-    </section>
+      <div class="callout">
+        <span class="label">À venir</span>
+        <p>Lorsque vous activerez les rappels basés sur la localisation, nous collecterons votre position géographique uniquement pour déclencher ces rappels au moment approprié. Vous pourrez désactiver cette fonctionnalité à tout moment.</p>
+      </div>
+    </div>
 
-    <section>
-      <h2>2. Comment nous utilisons vos informations</h2>
+    <div class="section">
+      <span class="num">02</span>
+      <h2>Comment nous utilisons vos informations</h2>
       <p>Nous utilisons vos informations pour :</p>
       <ul>
         <li>Fournir et améliorer nos services</li>
@@ -109,20 +74,28 @@
         <li>Communiquer des informations importantes liées à votre compte</li>
         <li>Assurer la sécurité de l'application</li>
       </ul>
-    </section>
+    </div>
 
-    <section>
-      <h2>3. Partage des informations</h2>
-      <p>Nous ne vendons jamais vos données personnelles. Nous pouvons partager des informations uniquement avec des prestataires techniques de confiance qui nous aident à faire fonctionner l'application (par exemple l'hébergement), et uniquement dans ce but. Nous pouvons divulguer des informations si la loi l'exige.</p>
-    </section>
+    <div class="section">
+      <span class="num">03</span>
+      <h2>Partage des informations</h2>
+      <p>Nous ne vendons jamais vos données personnelles. Nous pouvons partager des informations uniquement avec des prestataires techniques de confiance qui nous aident à faire fonctionner l'application, et uniquement dans ce but :</p>
+      <ul>
+        <li><strong>Supabase</strong> (hébergement, base de données, authentification)</li>
+        <li><strong>Google Analytics for Firebase</strong> (mesure d'audience anonymisée : écrans consultés, interactions dans l'app)</li>
+      </ul>
+      <p>Nous pouvons divulguer des informations si la loi l'exige.</p>
+    </div>
 
-    <section>
-      <h2>4. Sécurité des données</h2>
+    <div class="section">
+      <span class="num">04</span>
+      <h2>Sécurité des données</h2>
       <p>Vos données sont hébergées via Supabase, qui chiffre les données en transit et au repos. Nous prenons des mesures raisonnables pour protéger vos informations, mais aucun système n'est totalement infaillible — nous vous encourageons à utiliser un mot de passe robuste et unique.</p>
-    </section>
+    </div>
 
-    <section>
-      <h2>5. Vos choix</h2>
+    <div class="section">
+      <span class="num">05</span>
+      <h2>Vos choix</h2>
       <p>Vous pouvez à tout moment :</p>
       <ul>
         <li>Accéder à vos données personnelles</li>
@@ -131,31 +104,35 @@
         <li>Supprimer entièrement votre compte, ce qui efface définitivement vos données associées</li>
       </ul>
       <p>Pour exercer ces droits, contactez-nous à <a href="mailto:soulbloom.appli@gmail.com">soulbloom.appli@gmail.com</a>.</p>
-    </section>
+    </div>
 
-    <section>
-      <h2>6. Confidentialité des mineurs</h2>
+    <div class="section">
+      <span class="num">06</span>
+      <h2>Confidentialité des mineurs</h2>
       <p>Yazia n'est pas destinée aux enfants de moins de 13 ans. Si vous pensez qu'un enfant nous a transmis des données personnelles sans le consentement d'un parent, contactez-nous afin que nous puissions les supprimer.</p>
-    </section>
+    </div>
 
-    <section>
-      <h2>7. Utilisateurs internationaux</h2>
-      <p>En utilisant Yazia, vous acceptez que vos informations puissent être traitées et stockées via notre prestataire d'hébergement (Supabase), quel que soit votre pays de résidence.</p>
-    </section>
+    <div class="section">
+      <span class="num">07</span>
+      <h2>Utilisateurs internationaux</h2>
+      <p>En utilisant Yazia, vous acceptez que vos informations puissent être traitées et stockées via nos prestataires (Supabase, Google/Firebase), quel que soit votre pays de résidence.</p>
+    </div>
 
-    <section>
-      <h2>8. Modifications de cette politique</h2>
+    <div class="section">
+      <span class="num">08</span>
+      <h2>Modifications de cette politique</h2>
       <p>Nous pouvons mettre à jour cette politique périodiquement, notamment lors de l'ajout de nouvelles fonctionnalités (par exemple les rappels géolocalisés). Toute modification importante vous sera communiquée via l'application ou par email. La poursuite de l'utilisation de l'application après une mise à jour vaut acceptation de la politique révisée.</p>
-    </section>
+    </div>
 
-    <section>
-      <h2>9. Nous contacter</h2>
-      <p>Pour toute question relative à cette politique ou à vos données personnelles, contactez-nous à <a href="mailto:soulbloom.appli@gmail.com">soulbloom.appli@gmail.com</a>.</p>
-    </section>
-
-    <footer>
-      Voir aussi nos <a href="https://yazia.app/terms.html">conditions d'utilisation</a>.
-    </footer>
+    <div class="section">
+      <span class="num">09</span>
+      <h2>Nous contacter</h2>
+      <p>Pour toute question relative à cette politique ou à vos données personnelles, contactez-nous :</p>
+      <div class="contact-box">
+        <a href="mailto:soulbloom.appli@gmail.com">soulbloom.appli@gmail.com</a>
+      </div>
+      <p class="cross-link">Voir aussi nos <a href="/terms.html">conditions d'utilisation</a>.</p>
+    </div>
   </div>
 </body>
 </html>
